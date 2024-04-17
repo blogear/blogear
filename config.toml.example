@@ -1,0 +1,7 @@
+[http]
+host = "127.0.0.1"
+port = 3080
+upload_file_limit = 2147483648 # 2 GB
+
+[log]
+spec = "info,hyper=info,rustls=info"
