@@ -16,6 +16,7 @@ use crate::config::Config;
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
 
 pub mod config;
+mod core;
 pub mod logger;
 
 pub async fn run(config: Config) -> anyhow::Result<()> {
